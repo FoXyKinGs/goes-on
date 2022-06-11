@@ -1,0 +1,175 @@
+main.welcomePage {
+  background-color: var(--color-3);
+  color: var(--color-1);
+  width: 100%;
+  height: calc(100vh - 64px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Phone 0px - 480px */
+@media screen
+and (min-width: 0px)
+and (max-width: 480px) {
+  main.welcomePage {
+    padding: 10px;
+  }
+
+  main.welcomePage .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  main.welcomePage .content .right-content .splash {
+    width: 256px;
+  }
+
+  main.welcomePage .content .left-content form {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  main.welcomePage .content .left-content form input {
+    width: 100%;
+    height: 36px;
+    padding: 0 20px;
+    margin: 10px 0;
+    border: 1px solid var(--color-4);
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+  main.welcomePage .content .left-content form button {
+    width: 100%;
+    height: 36px;
+    border: 1px solid var(--color-4);
+    border-radius: 50px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    font-size: 14px;
+  }
+
+  main.welcomePage .content .left-content .information {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+/* Phone a/o Tablet 481px - 768px */
+@media screen 
+and (min-width: 481px)
+and (max-width: 768px) {
+  main.welcomePage {
+    padding: 10px;
+  }
+
+  main.welcomePage .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  main.welcomePage .content .right-content .splash {
+    width: 512px;
+  }
+
+  main.welcomePage .content .left-content form {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  main.welcomePage .content .left-content form input {
+    width: 100%;
+    height: 36px;
+    padding: 0 40px;
+    margin: 10px 0;
+    border: 1px solid var(--color-4);
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+  main.welcomePage .content .left-content form button {
+    width: 100%;
+    height: 36px;
+    border: 1px solid var(--color-4);
+    border-radius: 50px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    font-size: 14px;
+  }
+
+  main.welcomePage .content .left-content .information {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+@media screen 
+and (min-width: 769px) {
+  main.welcomePage {
+    padding: 40px;
+  }
+
+  main.welcomePage .content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  main.welcomePage .content .left-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main.welcomePage .content .left-content form {
+    width: 100%;
+    display: flex;
+    gap: 0.5em;
+  }
+
+  main.welcomePage .content .left-content form input {
+    width: 100%;
+    height: 36px;
+    padding: 0 20px;
+    border: 1px solid var(--color-4);
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+  main.welcomePage .content .left-content form button {
+    width: 50%;
+    height: 36px;
+    border: 1px solid var(--color-4);
+    border-radius: 50px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    font-size: 14px;
+  }
+
+  main.welcomePage .content .left-content .information {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  main.welcomePage .content .right-content {
+    width: 60%;
+  }
+
+  main.welcomePage .content .right-content .splash {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  main.welcomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

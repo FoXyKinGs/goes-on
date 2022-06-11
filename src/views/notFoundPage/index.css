@@ -1,0 +1,23 @@
+.pageNotFound {
+  background-color: var(--color-3);
+  width: 100%;
+  height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+}
+
+.pageNotFound .splash {
+  width: 50%;
+  height: 50%;
+}
+
+.pageNotFound p {
+  font-size: 26px;
+  color: var(--color-1)
+}
+
+@media screen and (min-width: 480px) {  
+  .pageNotFound p {
+    font-size: 48px;
+  }
+}

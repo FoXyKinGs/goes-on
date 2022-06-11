@@ -1,0 +1,264 @@
+main.managementPage {
+  background-color: var(--color-3);
+  color: var(--color-1);
+  width: 100%;
+  height: calc(100vh - 64px);
+  overflow-x: auto;
+}
+
+/* Phone 0px - 480px */
+@media screen
+and (min-width: 0px)
+and (max-width: 480px) {
+  main.managementPage {
+    padding: 10px;
+  }
+
+  main.managementPage .content {
+    position: relative;
+  }
+
+  main.managementPage .content .id {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  main.managementPage .content .total-money {
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  main.managementPage .content .total-money table {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--color-4);
+    background-color: var(--color-1);
+    border: 1px solid var(--color-4);
+    padding: 0;
+  }
+
+  main.managementPage .content .total-money table th,
+  main.managementPage .content .total-money table td {
+    border: 1px solid var(--color-4);
+    padding: 10px
+  }
+
+  main.managementPage .content .total-money .add-income {
+    width: 50%;
+    height: 34px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--color-1);
+    background-color: var(--color-4);
+    padding: 5px;
+    border: none;
+  }
+
+  main.managementPage .content .history {
+    margin-top: 10px;
+  }
+
+  main.managementPage .content .history .income {
+    background-color: var(--color-1);
+    width: 100%;
+    height: 250px;
+    color: var(--color-4);
+    padding: 10px;
+  }
+
+  main.managementPage .content .history .income p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  main.managementPage .content .history .income .history {
+    width: 100%;
+    height: 200px;
+    border: 1px solid var(--color-4);
+    overflow: auto;
+  }
+
+  main.managementPage .content .history .expense {
+    margin-top: 10px;
+    background-color: var(--color-1);
+    width: 100%;
+    height: 280px;
+    color: var(--color-4);
+    padding: 10px;
+  }
+
+  main.managementPage .content .history .expense p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  main.managementPage .content .history .expense .history {
+    width: 100%;
+    height: 200px;
+    border: 1px solid var(--color-4);
+    overflow: auto;
+  }
+
+  main.managementPage .content .history .expense .action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5em;
+  }
+
+  main.managementPage .content .history .expense .action .reminder {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    border: none;
+  }
+
+  main.managementPage .content .history .expense .action .add-expense {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    border: none;
+  }
+
+  main.managementPage .content .graph {
+    width: 100%;
+    margin-top: 10px;
+    background: var(--color-1);
+  }
+}
+
+/* Phone a/o Tablet 481px - 768px */
+@media screen 
+and (min-width: 481px)
+and (max-width: 768px) {
+  main.managementPage {
+    padding: 40px;
+  }
+
+  main.managementPage .content {
+    position: relative;
+  }
+
+  main.managementPage .content .id {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  main.managementPage .content .total-money {
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  main.managementPage .content .total-money table {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--color-4);
+    background-color: var(--color-1);
+    border: 1px solid var(--color-4);
+    padding: 0;
+  }
+
+  main.managementPage .content .total-money table th,
+  main.managementPage .content .total-money table td {
+    border: 1px solid var(--color-4);
+    padding: 10px
+  }
+
+  main.managementPage .content .total-money .add-income {
+    width: 50%;
+    height: 34px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--color-1);
+    background-color: var(--color-4);
+    padding: 5px;
+    border: none;
+  }
+
+  main.managementPage .content .history {
+    margin-top: 10px;
+    display: flex;
+    gap: 1em;
+  }
+
+  main.managementPage .content .history .income {
+    width: 50%;
+    background-color: var(--color-1);
+    width: 100%;
+    height: 280px;
+    color: var(--color-4);
+    padding: 10px;
+  }
+
+  main.managementPage .content .history .income p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  main.managementPage .content .history .income .history {
+    width: 100%;
+    height: 200px;
+    border: 1px solid var(--color-4);
+    overflow: auto;
+  }
+
+  main.managementPage .content .history .expense {
+    width: 50%;
+    background-color: var(--color-1);
+    width: 100%;
+    height: 280px;
+    color: var(--color-4);
+    padding: 10px;
+  }
+
+  main.managementPage .content .history .expense p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  main.managementPage .content .history .expense .history {
+    width: 100%;
+    height: 200px;
+    border: 1px solid var(--color-4);
+    overflow: auto;
+  }
+
+  main.managementPage .content .history .expense .action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5em;
+  }
+
+  main.managementPage .content .history .expense .action .reminder {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    border: none;
+  }
+
+  main.managementPage .content .history .expense .action .add-expense {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    border: none;
+  }
+  
+  main.managementPage .content .graph {
+    width: 100%;
+    margin-top: 10px;
+    background: var(--color-1);
+  }
+}
+
+@media screen 
+and (min-width: 769px) {
+}
