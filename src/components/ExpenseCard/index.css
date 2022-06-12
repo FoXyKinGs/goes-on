@@ -1,7 +1,7 @@
 .card-expense {
   position: relative;
   padding: 10px;
-  height: 150px;
+  height: 170px;
   width: 100%;
   border: 1px solid var(--color-4);
 }
@@ -13,6 +13,16 @@
 .card-expense .note .note-title{
   font-size: 14px;
   padding-top: 5px;
+}
+
+.card-expense .note .save-change{
+  color: var(--color-1);
+  background-color: var(--color-4);
+  border: none;
+  padding: 2px;
+  position: absolute;
+  right: 10px;
+  top: 30px;
 }
 
 .card-expense .note textarea {

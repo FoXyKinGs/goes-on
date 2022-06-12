@@ -131,14 +131,6 @@ and (max-width: 480px) {
     gap: 0.5em;
   }
 
-  main.managementPage .content .history .expense .action .reminder {
-    margin-top: 5px;
-    padding: 5px;
-    background-color: var(--color-4);
-    color: var(--color-1);
-    border: none;
-  }
-
   main.managementPage .content .history .expense .action .add-expense {
     margin-top: 5px;
     padding: 5px;
@@ -283,14 +275,6 @@ and (max-width: 768px) {
     gap: 0.5em;
   }
 
-  main.managementPage .content .history .expense .action .reminder {
-    margin-top: 5px;
-    padding: 5px;
-    background-color: var(--color-4);
-    color: var(--color-1);
-    border: none;
-  }
-
   main.managementPage .content .history .expense .action .add-expense {
     margin-top: 5px;
     padding: 5px;
@@ -431,14 +415,6 @@ and (min-width: 769px) {
     display: flex;
     justify-content: flex-end;
     gap: 0.5em;
-  }
-
-  main.managementPage .content .history .expense .action .reminder {
-    margin-top: 5px;
-    padding: 5px;
-    background-color: var(--color-4);
-    color: var(--color-1);
-    border: none;
   }
 
   main.managementPage .content .history .expense .action .add-expense {

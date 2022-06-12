@@ -118,7 +118,6 @@ const Index = () => {
               }
             </div>
             <div className='action'>
-              <button className='reminder'>Reminder</button>
               <button className='add-expense' onClick={() => changeValue('expense')}>Add Expense</button>
             </div>
           </div>
@@ -127,6 +126,7 @@ const Index = () => {
           <Line income={income?.reverse()} expense={expense?.reverse()}/>
         </div>
       </div>
+      <p>mochrizaldiak©2022</p>
     </main>
   )
 }

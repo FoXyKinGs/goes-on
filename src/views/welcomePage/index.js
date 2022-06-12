@@ -19,9 +19,9 @@ const Index = () => {
         </div>
         <div className='left-content'>
           <button onClick={() => nextStep()}> Start Using </button>
-          <p className='information'>Don't worry if you don't have ID, just click the button and magicaly generate a ID for you</p>
         </div>
       </div>
+      <p className='copyright'>mochrizaldiak©2022</p>
     </main>
   )
 }
