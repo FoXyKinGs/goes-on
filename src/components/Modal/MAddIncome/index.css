@@ -1,0 +1,58 @@
+.modal-income {
+  width: 100%;
+  height: calc(100% - 64px);
+  position: absolute;
+  top: 64px;
+  left: 0;
+  overflow: hidden;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-income .modal-box {
+  width: 40%;
+  height: 130px;
+  background-color: var(--color-1);
+  border: 2px solid var(--color-4);
+  color: var(--color-4);
+  padding: 10px;
+}
+
+.modal-income .modal-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-income .modal-box form input {
+  margin-top: 10px;
+  width: 100%;
+  height: 32px;
+  padding: 0 10px;
+}
+
+.modal-income .modal-box form .action {
+  margin-top: 10px; 
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.modal-income .modal-box form .action button {
+  width: 100px;
+  height: 32px;
+  color: var(--color-1);
+  background-color: var(--color-4);
+  border: none;
+}
+
+@media screen
+and (min-width: 0px)
+and (max-width: 480px) {
+  .modal-income .modal-box {
+    width: 80%;
+  }
+}

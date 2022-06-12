@@ -26,29 +26,14 @@ and (max-width: 480px) {
     width: 256px;
   }
 
-  main.welcomePage .content .left-content form {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  main.welcomePage .content .left-content form input {
-    width: 100%;
-    height: 36px;
-    padding: 0 20px;
-    margin: 10px 0;
-    border: 1px solid var(--color-4);
-    border-radius: 50px;
-    font-size: 14px;
-  }
-
-  main.welcomePage .content .left-content form button {
+  main.welcomePage .content .left-content .button {
     width: 100%;
     height: 36px;
     border: 1px solid var(--color-4);
-    border-radius: 50px;
     background-color: var(--color-4);
     color: var(--color-1);
     font-size: 14px;
+    text-decoration: none;
   }
 
   main.welcomePage .content .left-content .information {
@@ -76,26 +61,10 @@ and (max-width: 768px) {
     width: 512px;
   }
 
-  main.welcomePage .content .left-content form {
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  main.welcomePage .content .left-content form input {
-    width: 100%;
-    height: 36px;
-    padding: 0 40px;
-    margin: 10px 0;
-    border: 1px solid var(--color-4);
-    border-radius: 50px;
-    font-size: 14px;
-  }
-
-  main.welcomePage .content .left-content form button {
+  main.welcomePage .content .left-content button {
     width: 100%;
     height: 36px;
     border: 1px solid var(--color-4);
-    border-radius: 50px;
     background-color: var(--color-4);
     color: var(--color-1);
     font-size: 14px;
@@ -126,26 +95,10 @@ and (min-width: 769px) {
     align-items: center;
   }
 
-  main.welcomePage .content .left-content form {
-    width: 100%;
-    display: flex;
-    gap: 0.5em;
-  }
-
-  main.welcomePage .content .left-content form input {
+  main.welcomePage .content .left-content button {
     width: 100%;
     height: 36px;
-    padding: 0 20px;
     border: 1px solid var(--color-4);
-    border-radius: 50px;
-    font-size: 14px;
-  }
-
-  main.welcomePage .content .left-content form button {
-    width: 50%;
-    height: 36px;
-    border: 1px solid var(--color-4);
-    border-radius: 50px;
     background-color: var(--color-4);
     color: var(--color-1);
     font-size: 14px;

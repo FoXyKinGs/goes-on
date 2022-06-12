@@ -1,0 +1,30 @@
+.card-expense {
+  position: relative;
+  padding: 10px;
+  height: 150px;
+  width: 100%;
+  border: 1px solid var(--color-4);
+}
+
+.card-expense .amount {
+  font-size: 18px;
+}
+
+.card-expense .note .note-title{
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.card-expense .note textarea {
+  margin-top: 5px;
+  width: 100%;
+  resize: none;
+  height: 70px;
+  background-color: var(--color-2);
+  padding: 10px;
+}
+
+.card-expense .date {
+  font-size: 12px;
+  float: right;
+}

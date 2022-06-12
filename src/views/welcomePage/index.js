@@ -1,8 +1,16 @@
 import React from 'react'
 import './index.css'
 import UnDraw from '../../assets/undraw.svg'
+import { useNavigate } from 'react-router-dom'
 
-const index = () => {
+
+const Index = () => {
+  const navigate = useNavigate()
+
+  const nextStep = () => {
+    navigate('/manage')
+  }
+
   return (
     <main className='welcomePage'>
       <div className='content'>
@@ -10,10 +18,7 @@ const index = () => {
           <img src={UnDraw} className='splash' alt='splash'/>
         </div>
         <div className='left-content'>
-          <form>
-            <input type='text' placeholder='Input your ID here' />
-            <button> Start Using </button>
-          </form>
+          <button onClick={() => nextStep()}> Start Using </button>
           <p className='information'>Don't worry if you don't have ID, just click the button and magicaly generate a ID for you</p>
         </div>
       </div>
@@ -21,4 +26,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

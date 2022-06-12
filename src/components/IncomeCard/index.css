@@ -1,0 +1,16 @@
+.card-income {
+  position: relative;
+  padding: 10px;
+  height: 60px;
+  width: 100%;
+  border: 1px solid var(--color-4);
+}
+
+.card-income .amount {
+  font-size: 18px;
+}
+
+.card-income .date {
+  font-size: 14px;
+  float: right
+}
